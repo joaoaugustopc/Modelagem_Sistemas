@@ -1,0 +1,10 @@
+com\modelagem\entities\Direção.class
+com\modelagem\entities\Genero.class
+com\modelagem\entities\Ator.class
+com\modelagem\app\Main.class
+com\modelagem\entities\Produção.class
+com\modelagem\entities\Sessao.class
+com\modelagem\entities\Papel.class
+com\modelagem\entities\Ingresso.class
+com\modelagem\entities\Sala.class
+com\modelagem\entities\Filme.class
