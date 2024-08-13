@@ -1,9 +1,9 @@
 package com.modelagem.entities;
 
-public class Direção extends Papel {
+public class Direcao extends Papel {
     private String papelDirecao;
 
-    public Direção(String papelDirecao, String nomePessoa) {
+    public Direcao(String nomePessoa, String papelDirecao) {
         super(nomePessoa, "Direção");
         this.papelDirecao = papelDirecao;
     }

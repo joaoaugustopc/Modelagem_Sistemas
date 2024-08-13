@@ -1,8 +1,8 @@
-com\modelagem\entities\Direção.class
+com\modelagem\entities\Direcao.class
 com\modelagem\entities\Genero.class
+com\modelagem\entities\Producao.class
 com\modelagem\entities\Ator.class
 com\modelagem\app\Main.class
-com\modelagem\entities\Produção.class
 com\modelagem\entities\Sessao.class
 com\modelagem\entities\Papel.class
 com\modelagem\entities\Ingresso.class

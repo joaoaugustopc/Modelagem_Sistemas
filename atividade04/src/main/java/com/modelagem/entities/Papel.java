@@ -5,9 +5,6 @@ public class Papel {
     private String papel;
 
 
-    public Papel() {
-    }
-
     public Papel(String nomePessoa, String papel) {
         this.nomePessoa = nomePessoa;
         this.papel = papel;

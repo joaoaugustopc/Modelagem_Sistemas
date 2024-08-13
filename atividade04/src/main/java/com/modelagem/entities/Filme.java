@@ -12,10 +12,10 @@ public class Filme {
     private Genero genero;
 
     private List<Ator> atores;
-    private List<Direção> diretores;
-    private List<Produção> producoes;
+    private List<Direcao> diretores;
+    private List<Producao> producoes;
 
-    public Filme(String titulo, int ano, String produtora, String paisOrigem, String duracao, Genero genero, List<Ator> atores, List<Direção> diretores, List<Produção> producoes) {
+    public Filme(String titulo, int ano, String produtora, String paisOrigem, String duracao, Genero genero, List<Ator> atores, List<Direcao> diretores, List<Producao> producoes) {
         this.titulo = titulo;
         this.ano = ano;
         this.produtora = produtora;
@@ -79,26 +79,25 @@ public class Filme {
         return atores;
     }
 
-    public void setAtores(List<Ator> atores) {
-        this.atores = atores;
+    public void addAtor(Ator ator) {
+        this.atores.add(ator);
     }
 
-    public List<Direção> getDiretores() {
+    public List<Direcao> getDirecao() {
         return diretores;
     }
 
-    public void setDiretores(List<Direção> diretores) {
-        this.diretores = diretores;
+    public void addDirecao(Direcao direção) {
+        this.diretores.add(direção);
     }
 
-    public List<Produção> getProducoes() {
+    public List<Producao> getProducao() {
         return producoes;
     }
 
-    public void setProducoes(List<Produção> producoes) {
-        this.producoes = producoes;
+    public void addProducao(Producao producao) {
+        this.producoes.add(producao);
     }
-
 
     
     

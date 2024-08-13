@@ -69,7 +69,7 @@ public class Ingresso {
     }
 
     public void imprimirIngresso() {
-        System.out.println("Ingresso: " + numeroIngresso);
+        System.out.println("------ Ingresso: " + numeroIngresso + " ------"); 
         System.out.println("Assento: " + assentoIgresso);
         System.out.println("Tipo: " + tipoIngresso);
         System.out.println("Valor: " + valorIngresso);
